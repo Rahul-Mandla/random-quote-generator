@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+FormLabel {
+  font-family: lato;
+}
+form select {
+  width: 20px;
+}
+form select option {
+  text-transform: capitalize;
+}
+/* form input[type = submit]{
+  display: block
+} */
+.quotelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quotelist ul {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+.quotebox {
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "lato", "sans-serif";
+  letter-spacing: 1px;
+  width: 50vw;
+}

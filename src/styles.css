@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* .top-heading{
+  text-transform: uppercase;
+  font-family: 'lato', 'sans-serif';
+  font-size: 60px;
+  background: url('https://st.depositphotos.com/1158615/1849/i/950/depositphotos_18497391-stock-photo-cubes-created-from-color-leafs.jpg') no-repeat;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveBg 50s linear infinite;
+  -webkit-animation: moveBg 50s linear infinite;
+}
+
+@keyframes moveBg{
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+ */
+.top-heading {
+  text-transform: uppercase;
+  margin: 30px;
+  padding: 20px;
+  font: bold 35px "lato";
+}
